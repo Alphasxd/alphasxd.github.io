@@ -4,3 +4,9 @@ sitemap: false
 
 @import "moving";
 @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+.page-navigation {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
