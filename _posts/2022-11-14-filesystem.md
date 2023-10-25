@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 📒 File System
+title: 📝 File System
 category: codetips
 ---
 

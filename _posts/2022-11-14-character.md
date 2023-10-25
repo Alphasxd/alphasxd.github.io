@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 📒 Character Set and Encoding
+title: 📝 Character Set and Encoding
 category: codetips
 ---
 
