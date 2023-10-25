@@ -4,3 +4,115 @@ sitemap: false
 
 @import "moving";
 @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+.page-navigation {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ant-alert {
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: $spacing-unit / 2;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum";
+    position: relative;
+    // display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 2px;
+
+    // default
+    background: #fafafa;
+    border: 1px solid #d9d9d9;
+
+    * {
+        font-size: 14px;
+    }
+
+    & > *:last-child {
+        margin-bottom: 0;
+    }
+
+    &-warning {
+        background-color: #fffbe6;
+        border: 1px solid #ffe58f;
+    }
+
+    &-info {
+        background-color: #e6f7ff;
+        border: 1px solid #91d5ff;
+    }
+
+    &-success {
+        background-color: #f6ffed;
+        border: 1px solid #b7eb8f;
+    }
+
+    &-error {
+        background-color: #fff2f0;
+        border: 1px solid #ffccc7;
+    }
+
+    &-gold {
+        background: #fffbe6;
+        border-color: #ffe58f;
+    }
+
+    &-magenta {
+        background: #fff0f6;
+        border-color: #ffadd2;
+    }
+
+    &-red {
+        background: #fff1f0;
+        border-color: #ffa39e;
+    }
+
+    &-volcano {
+        background: #fff2e8;
+        border-color: #ffbb96;
+    }
+
+    &-orange {
+        background: #fff7e6;
+        border-color: #ffd591;
+    }
+
+    &-lime {
+        background: #fcffe6;
+        border-color: #eaff8f;
+    }
+
+    &-green {
+        background: #f6ffed;
+        border-color: #b7eb8f;
+    }
+
+    &-cyan {
+        background: #e6fffb;
+        border-color: #87e8de;
+    }
+
+    &-blue {
+        background: #e6f7ff;
+        border-color: #91d5ff;
+    }
+
+    &-geekblue {
+        background: #f0f5ff;
+        border-color: #adc6ff;
+    }
+
+    &-purple {
+        background: #f9f0ff;
+        border-color: #d3adf7;
+    }
+}
