@@ -7,3 +7,5 @@ layout: about
 ### What's New
 
 - Hallelujah! I'm back!
+- Graduate student in computer technology
+- The research direction is differential privacy correlation
