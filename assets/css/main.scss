@@ -6,113 +6,113 @@ sitemap: false
 @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
 
 .page-navigation {
-    display: block;
-    width: 100%;
-    overflow: hidden;
+  display: block;
+  width: 100%;
+  overflow: hidden;
 }
 
 .ant-alert {
-    box-sizing: border-box;
-    margin: 0;
-    margin-bottom: $spacing-unit / 2;
-    color: rgba(0,0,0,.85);
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: $spacing-unit / 2;
+  color: rgba(0,0,0,.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  // display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  word-wrap: break-word;
+  word-break: break-all;
+  border-radius: 2px;
+
+  // default
+  background: #fafafa;
+  border: 1px solid #d9d9d9;
+
+  * {
     font-size: 14px;
-    font-variant: tabular-nums;
-    line-height: 1.5715;
-    list-style: none;
-    font-feature-settings: "tnum";
-    position: relative;
-    // display: flex;
-    align-items: center;
-    padding: 8px 15px;
-    word-wrap: break-word;
-    word-break: break-all;
-    border-radius: 2px;
+  }
 
-    // default
-    background: #fafafa;
-    border: 1px solid #d9d9d9;
+  & > *:last-child {
+    margin-bottom: 0;
+  }
 
-    * {
-        font-size: 14px;
-    }
+  &-warning {
+    background-color: #fffbe6;
+    border: 1px solid #ffe58f;
+  }
 
-    & > *:last-child {
-        margin-bottom: 0;
-    }
+  &-info {
+    background-color: #e6f7ff;
+    border: 1px solid #91d5ff;
+  }
 
-    &-warning {
-        background-color: #fffbe6;
-        border: 1px solid #ffe58f;
-    }
+  &-success {
+    background-color: #f6ffed;
+    border: 1px solid #b7eb8f;
+  }
 
-    &-info {
-        background-color: #e6f7ff;
-        border: 1px solid #91d5ff;
-    }
+  &-error {
+    background-color: #fff2f0;
+    border: 1px solid #ffccc7;
+  }
 
-    &-success {
-        background-color: #f6ffed;
-        border: 1px solid #b7eb8f;
-    }
+  &-gold {
+    background: #fffbe6;
+    border-color: #ffe58f;
+  }
 
-    &-error {
-        background-color: #fff2f0;
-        border: 1px solid #ffccc7;
-    }
+  &-magenta {
+    background: #fff0f6;
+    border-color: #ffadd2;
+  }
 
-    &-gold {
-        background: #fffbe6;
-        border-color: #ffe58f;
-    }
+  &-red {
+    background: #fff1f0;
+    border-color: #ffa39e;
+  }
 
-    &-magenta {
-        background: #fff0f6;
-        border-color: #ffadd2;
-    }
+  &-volcano {
+    background: #fff2e8;
+    border-color: #ffbb96;
+  }
 
-    &-red {
-        background: #fff1f0;
-        border-color: #ffa39e;
-    }
+  &-orange {
+    background: #fff7e6;
+    border-color: #ffd591;
+  }
 
-    &-volcano {
-        background: #fff2e8;
-        border-color: #ffbb96;
-    }
+  &-lime {
+    background: #fcffe6;
+    border-color: #eaff8f;
+  }
 
-    &-orange {
-        background: #fff7e6;
-        border-color: #ffd591;
-    }
+  &-green {
+    background: #f6ffed;
+    border-color: #b7eb8f;
+  }
 
-    &-lime {
-        background: #fcffe6;
-        border-color: #eaff8f;
-    }
+  &-cyan {
+    background: #e6fffb;
+    border-color: #87e8de;
+  }
 
-    &-green {
-        background: #f6ffed;
-        border-color: #b7eb8f;
-    }
+  &-blue {
+    background: #e6f7ff;
+    border-color: #91d5ff;
+  }
 
-    &-cyan {
-        background: #e6fffb;
-        border-color: #87e8de;
-    }
+  &-geekblue {
+    background: #f0f5ff;
+    border-color: #adc6ff;
+  }
 
-    &-blue {
-        background: #e6f7ff;
-        border-color: #91d5ff;
-    }
-
-    &-geekblue {
-        background: #f0f5ff;
-        border-color: #adc6ff;
-    }
-
-    &-purple {
-        background: #f9f0ff;
-        border-color: #d3adf7;
-    }
+  &-purple {
+    background: #f9f0ff;
+    border-color: #d3adf7;
+  }
 }
