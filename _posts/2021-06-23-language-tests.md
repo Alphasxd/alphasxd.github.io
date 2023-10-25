@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Language Tests"
+title: 💡 Language Tests
 categories: misc
 ---
 

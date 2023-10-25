@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Code Highlight Tests"
+title: 💡 Code Highlight Tests
 categories: misc
 ---
 

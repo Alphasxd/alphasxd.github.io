@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Post Content Styles"
+title: 💡 Post Content Styles
 categories: misc
 ---
 
