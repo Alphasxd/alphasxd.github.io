@@ -44,3 +44,11 @@ moving:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+exclude:
+    - "*.json"
+    - "Gemfile*"
+    - "*.txt"
+    - vendor
+    - README.md
+    - somefile.html
