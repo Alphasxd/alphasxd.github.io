@@ -2,4 +2,4 @@
 
 ## Introduction
 
-Blog for debugging the world.
+Blog for debug the world.
