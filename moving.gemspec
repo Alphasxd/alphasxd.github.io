@@ -14,10 +14,10 @@ Gem::Specification.new do |spec|
     f.match(%r{^(_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
   end
 
-  spec.add_runtime_dependency "jekyll"
-  spec.add_runtime_dependency "jekyll-feed"
-  spec.add_runtime_dependency "jekyll-seo-tag"
+  spec.add_runtime_dependency "jekyll", "~> 4.0.0"
+  spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
 
-  spec.add_development_dependency "bundler"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "bundler", ">= 2.3.26"
+  spec.add_development_dependency "rake", "~> 12.0"
 end
