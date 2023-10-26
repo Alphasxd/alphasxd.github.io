@@ -11,9 +11,7 @@ categories: academic
 
 > 内容源自[2021云栖大会-隐私计算-肖臻cut](https://www.bilibili.com/video/BV1JU4y1g7Ho/?share_source=copy_web&vd_source=9e178f716784229a31b1d46a83ef9aba)
 
-## 前置知识
-
-### 隐私计算的概念
+## 隐私计算的概念
 
   隐私计算是指在保证数据提供方不泄露原始数据的前提下，对数据进行搜集、处理，完成数据价值挖掘的技术体系，保障数据在流通和融合过程中的“可用不可见”，有广泛的应用前景，也面临着诸多挑战。
 
@@ -27,11 +25,11 @@ categories: academic
 
 ![image-20231014204944391](https://gitlab.com/Sh3ldon/MyPic/-/raw/main/pictures/2023/10/14_20_49_44_image-20231014204944391.png)
 
-### 隐私计算的潜在需求
+## 隐私计算的潜在需求
 
 ![image-20231014205136866](https://gitlab.com/Sh3ldon/MyPic/-/raw/main/pictures/2023/10/14_20_51_36_image-20231014205136866.png)
 
-### 隐私计算的前进与挑战
+## 隐私计算的前进与挑战
 
 前景
 
@@ -51,7 +49,7 @@ categories: academic
 >
 > 针对某些功能下的隐私计算并没有实现真正意义上的通用的隐私计算
 
-### 联邦学习
+## 联邦学习
 
 联邦学习是一种分布式机器学习技术
 
@@ -69,7 +67,7 @@ categories: academic
 
 ![image-20231014211724804](https://gitlab.com/Sh3ldon/MyPic/-/raw/main/pictures/2023/10/14_21_17_24_image-20231014211724804.png)
 
-### 安全多方计算
+## 安全多方计算
 
 姚氏百万富翁问题
 
@@ -101,7 +99,7 @@ categories: academic
 
 ![image-20231015111822183](https://gitlab.com/Sh3ldon/MyPic/-/raw/main/pictures/2023/10/15_11_18_22_image-20231015111822183.png)
 
-### 同态加密 Homomorphic Encryption
+## 同态加密 Homomorphic Encryption
 
 安全多方计算的底层技术
 
@@ -134,7 +132,7 @@ categories: academic
 
 ![image-20231015113411063](https://gitlab.com/Sh3ldon/MyPic/-/raw/main/pictures/2023/10/15_11_34_11_image-20231015113411063.png)
 
-### 零知识证明 
+## 零知识证明 
 
 ![image-20231015114029504](https://gitlab.com/Sh3ldon/MyPic/-/raw/main/pictures/2023/10/15_11_40_29_image-20231015114029504.png)
 
@@ -171,7 +169,7 @@ filecoin使用zk协议，只是用来实现它的共识机制的一部分，并�
 
 以太坊的智能合约里，也没有实现真正的隐私计算，以太坊的智能合约是图灵完备的，从理论上说也是一个很好的隐私计算的应用场景，因为智能合约的一些东西都是公开的，如果有一些隐私数据想通过智能合约进行计算，可以把这些隐私数据进行同态加密然后发到智能合约里，智能合约就负责用加密后的数据进行运算，然后把结果传给我，我再加密，智能合约可以扣掉我一部分coin。愿景非常美好，但是也没有实现，原因就是通用的同态加密技术和安全多方计算目前还没有真正的大规模应用。
 
-### TEE: 可信执行环境
+## TEE: 可信执行环境
 
 硬件层面
 
@@ -185,7 +183,7 @@ filecoin使用zk协议，只是用来实现它的共识机制的一部分，并�
 
 ![image-20231015125002010](https://gitlab.com/Sh3ldon/MyPic/-/raw/main/pictures/2023/10/15_12_50_2_image-20231015125002010.png)
 
-### 隐私计算与区块链
+## 隐私计算与区块链
 
 基于区块链和TEE的数据分析服务
 
@@ -195,7 +193,7 @@ filecoin使用zk协议，只是用来实现它的共识机制的一部分，并�
 
 ![image-20231015125219269](https://gitlab.com/Sh3ldon/MyPic/-/raw/main/pictures/2023/10/15_12_52_19_image-20231015125219269.png)
 
-### 隐私计算的其他应用
+## 隐私计算的其他应用
 
 征信系统
 
@@ -207,7 +205,7 @@ filecoin使用zk协议，只是用来实现它的共识机制的一部分，并�
 
 ![image-20231015125352858](https://gitlab.com/Sh3ldon/MyPic/-/raw/main/pictures/2023/10/15_12_53_52_image-20231015125352858.png)
 
-### 隐私计算存在的问题
+## 隐私计算存在的问题
 
 数据源真实性
 
@@ -221,7 +219,7 @@ TEE的局限
 
 ![image-20231015125121186](https://gitlab.com/Sh3ldon/MyPic/-/raw/main/pictures/2023/10/15_12_51_21_image-20231015125121186.png)
 
-### 观念混淆
+## 观念混淆
 
 比如，黑客入侵一个大公司，盗取了大量的数据
 
