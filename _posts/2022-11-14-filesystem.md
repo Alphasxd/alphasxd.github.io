@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 📝 File System
-category: codetips
+categories: codetips
 ---
 
 # 存储与文件系统
