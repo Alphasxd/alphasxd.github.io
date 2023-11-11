@@ -2,8 +2,9 @@
 layout: about
 ---
 
-- 计算机专业，研究生在读
+- 计算机技术，硕士在读
 - Gopher & Rustacean
+- 好奇新鲜事物，喜欢尝试
 
 ### Seminar Slide
 - [Slide4Seminar](https://slide4seminar.netlify.app/)
