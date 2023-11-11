@@ -3,7 +3,7 @@ layout: about
 ---
 
 - 计算机专业，研究生在读
-- 今天是好人，明天不一定
+- Gopher & Rustacean
 
 ### Seminar Slide
 - [Slide4Seminar](https://slide4seminar.netlify.app/)
