@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 📝 Character Set and Encoding
-category: codetips
+categories: codetips
 ---
 
 # 字符集与编码

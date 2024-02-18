@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 🔖 Awesome Privacy
-category: academic
+categories: academic
 ---
 
 # Awesome-Privacy  

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 🀄 近代史 - 中华民国
-category: history
+categories: history
 ---
 
 > 民国近代史尤其混乱，在此查阅资料并记录一下。
